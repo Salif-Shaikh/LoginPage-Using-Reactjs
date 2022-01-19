@@ -1,0 +1,78 @@
+.ParentDiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: #383D42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImgChildDiv {
+  width: 30vw;
+  height: 60vh;
+  background-image: url("./media/LoginPageImg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 20px -6px #000;
+}
+
+.FormChildDiv{
+   width: 30vw;
+   height: 60vh;
+   background-color: #C7CAD0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 10px 20px -6px #000;
+}
+
+.LoginForm {
+  height: 300px;
+  width: 280px;
+  position: relative;
+  padding: 7px;
+  background: #929DA7;
+  box-shadow: 0 10px 20px -6px #000;
+  border-radius: 8px;
+}
+
+.FormHeading {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  color: #383D42;
+  margin: 0;
+  font-size: 45px;
+}
+
+.InputGroup {
+  margin-top: 35px;
+  position: initial;
+  width: 330px;
+  margin-left: 30px;
+}
+
+.InputField {
+  color: #fff;
+  width: 68%;
+  padding: 12px 0;
+  margin: 12px 0;
+  outline: none;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #fff;
+  border-radius: 3px;
+  background: transparent;
+}
+
+.LoginBtn {
+  color: #fff;
+  width: 68%;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+  background: #AE9E99;
+  border: 0px;
+  border-radius: 3px;
+}
